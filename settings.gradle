@@ -3,3 +3,8 @@
  */
 
 rootProject.name = 'chronicle-threads'
+
+include ':chronicle-core'
+
+project(':chronicle-core').projectDir = new File(rootDir, "../chronicle-core")
+
